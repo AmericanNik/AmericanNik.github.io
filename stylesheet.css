@@ -47,6 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+/*--------!!!!!Styling Beginning!!!!----------*/
+
+html{
+    height:100%;
+}
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    padding:10px;
+}
+
 body{
     background-color:#f4f4f4;
     color:#555;
@@ -54,28 +65,41 @@ body{
     font-size:16px;
     line-height: 1.6em;
     margin:0;
-}
+    min-height:100%;
+    display:flex;
+    flex-direction:column;
+    }
 
+.image{
+    float:left;
+}
 .container{
     width: 80%;
     margin:auto;
+    margin-top:10px;
     overflow:hidden;
-    position: relative;
-}
+            }
 
-#main-header{
+#header{
+    background-color:#333;
+    width: 100%;
+            }
+
+#namebox{
     background-color: coral;
     color: #fff;
-    width:170px;
     position: absolute;
-    bottom:-15;
-    }
+    font-weight: bold;
+    padding:15px 15px 15px 25px;
+    width: 110px;
+        }
 
 #navbar{
-    clear: both;
+        clear: both;
     text-align: right;
-    background-color: #333;
     color: #fff;
+    background-color: #333;
+    padding:15px;
         }
 
 #navbar ul{
@@ -94,6 +118,19 @@ body{
     padding-right: 15px;
 }
 
-#showcase{
-    background-image:url('../images/showcase.jpeg')
+#main-footer{
+    width: 100%;
+    background-color:#333;
+    padding-top:15px;
+    margin-top: auto;
+   
+}
+
+#footcontent{
+    color:#eee;
+    position: relative;
+       }
+
+#contactform{
+    text-align: center;
 }
