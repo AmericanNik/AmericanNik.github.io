@@ -134,3 +134,153 @@ body{
 #contactform{
     text-align: center;
 }
+
+#portfolioBox{
+    background-color:#333;
+    text-align: center;
+    margin:20px;
+    position:relative;
+    box-shadow: 6px 3px 3px #333;
+    border-radius:15px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding:25px;
+    opacity: .75;
+}
+
+div.box1{
+    background-image: url("./images/1859175.gif");
+    padding: 15px;
+    width:100px;
+    height:100px;
+    margin:15px;
+    float:left;
+    position: relative;
+    text-align:center
+}
+
+div.box2{
+    background-image:url("./images/dark_dragon_avatar_picture_21528.jpg");
+    color:#eee;
+    padding: 15px;
+    width:100px;
+    height:100px;
+    margin:15px;
+    float:left;
+    position:relative;
+}
+
+div.box3{
+    clear:both;
+    background-image:url("./images/100x100falloutav-ch.gif");
+    padding: 15px;
+    width:100px;
+    height:100px;
+    float:left;
+    margin:15px;
+    position: relative;
+}
+
+div.box4{
+    background-image:url("./images/0038.gif");
+    padding: 15px;
+    width:100px;
+    height:100px;
+    float:left;
+    margin:15px;
+    position: relative;
+}
+
+#table1{
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    margin:20px;
+}
+
+#portfolioBody{
+    background-image:url("./images/berube-jonathan-berube-art-director-matte-192.jpg")
+}
+.porthead{
+    color:#eee;
+}
+
+.box1txt{
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    left:0px;
+    bottom:5px;
+    ;
+}
+.box2txt{
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    position: absolute;
+    left:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+    bottom:5px;
+
+}
+
+.box3txt{
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    left:0px;
+    bottom:5px;
+
+}
+
+.box4txt{
+    background-color: rgba(0,0,0,.75);
+    position: absolute;
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    left:0px;
+    bottom:5px;
+
+}
+
+.box1txt a{
+    color:#eee;
+}
+
+.box2txt a{
+    color:#eee;
+}
+
+.box3txt a{
+    color:#eee;
+}
+
+.box4txt a{
+    color:#eee;
+}
+
+input{
+    width:80%;
+}
+
+#contactBody{
+    background-color:#555;
+}
+
+#contactform{
+    background-color:#eee;
+    border-radius:5px;
+    width:560px;
+}
+
+textarea{
+    width:90%;
+    margin:15px;
+}
