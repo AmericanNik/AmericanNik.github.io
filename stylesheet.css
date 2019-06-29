@@ -52,11 +52,6 @@ table {
 html{
     height:100%;
 }
-h1{
-    font-weight: bold;
-    font-size: 24px;
-    padding:10px;
-}
 
 body{
     background-color:#555;
@@ -70,6 +65,12 @@ body{
     flex-direction:column;
     }
 
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    padding:10px;
+   }
+
 .image{
     float:left;
 }
@@ -79,12 +80,16 @@ body{
     margin-top:20px;
     overflow:hidden;
     border-radius: 1%;
+    position:relative;
        ;
             }
 
+
+/* Nav Section */
 #header{
     background-color:#333;
     width: 100%;
+    position:static;
             }
 
 #namebox{
@@ -92,9 +97,16 @@ body{
     color: #fff;
     position: absolute;
     font-weight: bold;
-    padding:15px 15px 15px 25px;
-    width: 110px;
+    padding:15px 25px 15px 25px;
+    position: absolute;
         }
+
+.fullNav{
+    max-width: 960px;
+    position: relative;
+    left:0;
+    }
+        
 
 #navbar{
         clear: both;
@@ -102,6 +114,7 @@ body{
     color: #fff;
     background-color: #333;
     padding:15px;
+    padding-right:0;
         }
 
 #navbar ul{
@@ -120,6 +133,11 @@ body{
     padding-right: 15px;
 }
 
+/* Content Section */
+
+
+
+/* Footer Section */
 #main-footer{
     width: 100%;
     background-color:#333;
@@ -133,9 +151,40 @@ body{
     position: relative;
        }
 
+       /* Contact Form */
+
 #contactform{
     text-align: center;
 }
+
+
+.input{
+    width:80%;
+}
+
+#contactBody{
+    background-color:#555;
+}
+
+#contactform{
+    background-color:#eee;
+    border-radius:5px;
+    width:560px;
+}
+
+textarea{
+    width:90%;
+    margin:15px;
+}
+
+/* Portfolio Section */
+
+}
+
+.porthead{
+    color:#eee;
+}
+
 
 #portfolioBox{
     background-color:#333;
@@ -149,7 +198,9 @@ body{
     margin-right:auto;
     padding:25px;
     opacity: .75;
+    color:#fff;
 }
+
 
 div.box1{
     background-image: url("./images/1859175.gif");
@@ -164,7 +215,6 @@ div.box1{
 
 div.box2{
     background-image:url("./images/dark_dragon_avatar_picture_21528.jpg");
-    color:#eee;
     padding: 15px;
     width:100px;
     height:100px;
@@ -205,9 +255,7 @@ div.box4{
 #portfolioBody{
     background-image:url("./images/berube-jonathan-berube-art-director-matte-192.jpg")
 }
-.porthead{
-    color:#eee;
-}
+
 
 .box1txt{
     background-color: rgba(0,0,0,.75);
@@ -252,40 +300,28 @@ div.box4{
 
 }
 
-.box1txt a{
+.portBox a{
     color:#eee;
+    position: absolute;
+    width:100%;
+    padding:5px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,.75)
+    
 }
 
-.box2txt a{
-    color:#eee;
+.portBox{
+    position: absolute;
+    width:100%;
+    padding-bottom:5px;
+    left:0px;
+    bottom:5px;
 }
 
-.box3txt a{
-    color:#eee;
-}
-
-.box4txt a{
-    color:#eee;
-}
-
-input{
-    width:80%;
-}
-
-#contactBody{
-    background-color:#555;
-}
-
-#contactform{
-    background-color:#eee;
-    border-radius:5px;
-    width:560px;
-}
-
-textarea{
-    width:90%;
-    margin:15px;
-}
 
 .image{
     border-radius: 45%;
@@ -312,7 +348,7 @@ textarea{
     background-color:#eee;
     Margin-bottom:20px;
     box-shadow: 2px 2px 6px#333;
-    padding:50px;
+    padding:0;
 
 }
 
