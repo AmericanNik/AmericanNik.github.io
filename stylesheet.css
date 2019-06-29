@@ -301,7 +301,7 @@ textarea{
 #mainContent{
     background-color:#555;
     border: #333 solid 1px;
-
+    max-width: 960px;
 }
 
 #indexBody{
@@ -314,4 +314,12 @@ textarea{
     box-shadow: 2px 2px 6px#333;
     padding:50px;
 
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.italText{
+    font-style:italic; 
 }
